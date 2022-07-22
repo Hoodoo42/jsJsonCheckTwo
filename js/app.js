@@ -8,5 +8,6 @@ let selection = {
 
 // setting the variable that will hold the string version of the object
 // Cookies.set is named userSelection and is holding the string version of the object (through the value of the variable selectionJSON)
+
 let selectionJson = JSON.stringify(selection);
 Cookies.set(`userSelection`, selectionJson);
